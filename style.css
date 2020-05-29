@@ -1,0 +1,12 @@
+body {
+  background-color: #fff4d7;
+  padding: 0;
+  margin: 0;
+}
+
+#ball {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  background-color: #c3696e;
+}
