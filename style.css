@@ -9,4 +9,5 @@ body {
   width: 30px;
   border-radius: 100%;
   background-color: #c3696e;
+  position: absolute;
 }
