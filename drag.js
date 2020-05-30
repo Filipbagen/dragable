@@ -1,4 +1,9 @@
-window.onload = function () {
+const startGame = () => {
+  moveBall()
+  followBall()
+}
+
+const moveBall = () => {
   //Select what we want to drag
   var ball = document.querySelector("#ball")
 
@@ -11,5 +16,14 @@ window.onload = function () {
     //assig ball new coordinates based on the touch
     ball.style.left = touchLocation.pageX + "px"
     ball.style.top = touchLocation.pageY + "px"
+
+    console.log(ball.style.left)
+    console.log(ball.style.top)
   })
+}
+
+const followBall = () => {
+  var enemy = document.querySelector("#enemy")
+
+  enemy.addEventListener()
 }

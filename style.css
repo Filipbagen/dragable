@@ -2,6 +2,8 @@ body {
   background-color: #fff4d7;
   padding: 0;
   margin: 0;
+  position: relative;
+  overflow: hidden;
 }
 
 #ball {
@@ -9,5 +11,14 @@ body {
   width: 30px;
   border-radius: 100%;
   background-color: #c3696e;
+  position: absolute;
+  left: 50%;
+}
+
+#enemy {
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  background-color: #999999;
   position: absolute;
 }
